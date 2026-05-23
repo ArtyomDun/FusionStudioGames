@@ -1,8 +1,58 @@
-{
-  "updated_at": "2026-05-23T09:47:21.974181+00:00",
+﻿{
+  "updated_at": "2026-05-23T00:00:00Z",
   "developer": {
     "id": "7729187217087271065",
     "url": "https://play.google.com/store/apps/dev?id=7729187217087271065"
   },
-  "apps": []
+  "apps": [
+    {
+      "appId": "com.fusionstudio.brixyboom",
+      "title": "Brixy Boom: Block Puzzle",
+      "summary": "Классическая block puzzle-игра 8x8 с бустерами, прогрессией и таблицей лидеров.",
+      "icon": "https://www.google.com/s2/favicons?sz=128&domain_url=https://play.google.com/store/apps/details?id=com.fusionstudio.brixyboom",
+      "url": "https://play.google.com/store/apps/details?id=com.fusionstudio.brixyboom"
+    },
+    {
+      "appId": "com.gbs.fazcombat",
+      "title": "FazCombat",
+      "summary": "Idle-clicker про управление пиццерией, апгрейды, риски и инциденты с аниматрониками.",
+      "icon": "https://www.google.com/s2/favicons?sz=128&domain_url=https://play.google.com/store/apps/details?id=com.gbs.fazcombat",
+      "url": "https://play.google.com/store/apps/details?id=com.gbs.fazcombat"
+    },
+    {
+      "appId": "com.gameboxs.nntwo",
+      "title": "Five Bloody Nights",
+      "summary": "Хоррор-игра в духе survival nights с атмосферой и напряженным геймплеем.",
+      "icon": "https://www.google.com/s2/favicons?sz=128&domain_url=https://play.google.com/store/apps/details?id=com.gameboxs.nntwo",
+      "url": "https://play.google.com/store/apps/details?id=com.gameboxs.nntwo"
+    },
+    {
+      "appId": "com.fnnpo.gbs",
+      "title": "Five Nightmare Nights",
+      "summary": "Продолжение ночного хоррора с пугающей атмосферой и сложными ночными сессиями.",
+      "icon": "https://www.google.com/s2/favicons?sz=128&domain_url=https://play.google.com/store/apps/details?id=com.fnnpo.gbs",
+      "url": "https://play.google.com/store/apps/details?id=com.fnnpo.gbs"
+    },
+    {
+      "appId": "com.gameboxs.deadend",
+      "title": "Dead End",
+      "summary": "Мрачное приключение с элементами выживания и опасными встречами.",
+      "icon": "https://www.google.com/s2/favicons?sz=128&domain_url=https://play.google.com/store/apps/details?id=com.gameboxs.deadend",
+      "url": "https://play.google.com/store/apps/details?id=com.gameboxs.deadend"
+    },
+    {
+      "appId": "com.gameboxs.wssm",
+      "title": "Wither Storm",
+      "summary": "Экшен-приключение с боссами, исследованиями и непростыми битвами.",
+      "icon": "https://www.google.com/s2/favicons?sz=128&domain_url=https://play.google.com/store/apps/details?id=com.gameboxs.wssm",
+      "url": "https://play.google.com/store/apps/details?id=com.gameboxs.wssm"
+    },
+    {
+      "appId": "com.gameboxs.sticrunner",
+      "title": "Stick Runner",
+      "summary": "Аркадный раннер с быстрыми уровнями, реакцией и набором очков.",
+      "icon": "https://www.google.com/s2/favicons?sz=128&domain_url=https://play.google.com/store/apps/details?id=com.gameboxs.sticrunner",
+      "url": "https://play.google.com/store/apps/details?id=com.gameboxs.sticrunner"
+    }
+  ]
 }
