@@ -1,0 +1,31 @@
+﻿name: Update Google Play Apps Data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 6 * * 1" # weekly, Monday 06:00 UTC
+
+permissions:
+  contents: write
+
+jobs:
+  update-apps:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch apps from Google Play
+        run: python scripts/fetch_play_apps.py
+
+      - name: Commit updated apps.json
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update Google Play apps data"
+          file_pattern: data/apps.json
